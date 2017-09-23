@@ -31,27 +31,27 @@ public class Main extends AppCompatActivity {
                 switch (dice){
                     default:
                         break;
-                    case 1:
+                    case 0:
                         tvName.setText("Result: 1");
                         ivPicture.setImageResource(R.drawable.one);
                         break;
-                    case 2:
+                    case 1:
                         tvName.setText("Result: 2");
                         ivPicture.setImageResource(R.drawable.two);
                         break;
-                    case 3:
+                    case 2:
                         tvName.setText("Result: 3");
                         ivPicture.setImageResource(R.drawable.three);
                         break;
-                    case 4:
+                    case 3:
                         tvName.setText("Result: 4");
                         ivPicture.setImageResource(R.drawable.four);
                         break;
-                    case 5:
+                    case 4:
                         tvName.setText("Result: 5");
                         ivPicture.setImageResource(R.drawable.five);
                         break;
-                    case 6:
+                    case 5:
                         tvName.setText("Result: 6");
                         ivPicture.setImageResource(R.drawable.six);
                         break;

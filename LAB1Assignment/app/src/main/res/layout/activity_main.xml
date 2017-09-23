@@ -2,20 +2,24 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_height="fill_parent"
+    android:background="@android:color/background_dark"
+    >
 
     <ImageView
-        android:id = "@+id/ivPicture"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+        android:id="@+id/ivPicture"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
         android:layout_weight="1"
-        android:src="@drawable/one"/>
+        android:src="@drawable/one" />
+
     <TextView
-        android:id = "@+id/tvName"
+        android:id="@+id/tvName"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:textSize="60sp"
-        android:text="@string/Result"/>
+        android:text="@string/Result"
+        android:textColor="@android:color/background_light"
+        android:textSize="60sp" />
     <Button
         android:id="@+id/btnThrow"
         android:text="Throw"
